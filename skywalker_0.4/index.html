@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no">
+    <!--<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>-->
+    <script src="./p5.min.0.10.2.js"></script>
+    <script src="./libs/p5.sound.min.js"></script>
+    <script src="./libs/p5.collide2d.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+
+        <script>
+            var ctx ={};
+        </script>
+
+        <script  type="module">
+            import {start} from './libs/start.js'
+            start(ctx);
+        </script>
+
+        <script>
+        function preload() {
+           ctx.preload();
+        }
+
+
+        function setup() {
+            ctx.setup();
+        }
+
+        function draw() {
+            ctx.draw();
+        }
+
+        </script>
+
+
+
+
+
+    <!--<script src="test.js"></script>-->
+
+
+</body></html>
